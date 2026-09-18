@@ -12,9 +12,9 @@ import { AboutUsPage } from './pages/AboutUsPage';
 import { CollaboratePage } from './pages/CollaboratePage';
 import { ServicesPage } from './pages/ServicesPage';
 import { CatalogPage } from './pages/CatalogPage';
+import { Locale } from './data/locales';
 
 export const App: React.FC = () => {
-  // Normalize initial route to /en
   const getInitialPath = () => {
     const path = window.location.pathname;
     if (path === '/' || path === '') return '/en';
@@ -23,6 +23,7 @@ export const App: React.FC = () => {
   };
 
   const [currentPath, setCurrentPath] = useState<string>(getInitialPath);
+  const [locale, setLocale] = useState<Locale>('km'); // Default to Khmer like real tfdevs.com root
   const lenisRef = useRef<Lenis | null>(null);
 
   // Initialize Lenis Kinetic Smooth Scroll
@@ -70,14 +71,15 @@ export const App: React.FC = () => {
     }
   };
 
+  const toggleLocale = () => {
+    setLocale(prev => (prev === 'km' ? 'en' : 'km'));
+  };
+
   // Route Dispatcher
   const renderRoute = () => {
-    // 1. Home
     if (currentPath === '/en' || currentPath === '/en/') {
-      return <HomePage onNavigate={navigate} />;
+      return <HomePage locale={locale} onNavigate={navigate} />;
     }
-
-    // 2. Academy
     if (currentPath === '/en/academy' || currentPath === '/en/academy/') {
       return <AcademyPage onNavigate={navigate} />;
     }
@@ -87,8 +89,6 @@ export const App: React.FC = () => {
     if (currentPath === '/en/academy/success') {
       return <AcademySuccessPage onNavigate={navigate} />;
     }
-
-    // 3. Articles & Detail Views
     if (currentPath === '/en/articles' || currentPath === '/en/articles/') {
       return <ArticlesPage onNavigate={navigate} />;
     }
@@ -96,23 +96,15 @@ export const App: React.FC = () => {
       const slug = currentPath.replace('/en/articles/', '').replace(/\/$/, '');
       return <ArticleDetailPage slug={slug} onNavigate={navigate} />;
     }
-
-    // 4. About Us
     if (currentPath === '/en/about-us' || currentPath === '/en/about' || currentPath === '/en/about-us/') {
       return <AboutUsPage onNavigate={navigate} />;
     }
-
-    // 5. Collaborate
     if (currentPath === '/en/collaborate' || currentPath === '/en/collaborate/') {
       return <CollaboratePage onNavigate={navigate} />;
     }
-
-    // 6. Services
     if (currentPath === '/en/services' || currentPath === '/en/services/') {
       return <ServicesPage onNavigate={navigate} />;
     }
-
-    // 7. Courses Catalog
     if (currentPath === '/en/courses' || currentPath === '/en/courses/') {
       return (
         <CatalogPage
@@ -123,8 +115,6 @@ export const App: React.FC = () => {
         />
       );
     }
-
-    // 8. Projects Catalog
     if (currentPath === '/en/projects' || currentPath === '/en/projects/') {
       return (
         <CatalogPage
@@ -135,14 +125,17 @@ export const App: React.FC = () => {
         />
       );
     }
-
-    // Default Fallback: Home Page
-    return <HomePage onNavigate={navigate} />;
+    return <HomePage locale={locale} onNavigate={navigate} />;
   };
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0B1120] text-[#F3F4F6]">
-      <Navbar currentPath={currentPath} onNavigate={navigate} />
+      <Navbar
+        currentPath={currentPath}
+        locale={locale}
+        onNavigate={navigate}
+        onToggleLocale={toggleLocale}
+      />
       <main className="flex-1">
         {renderRoute()}
       </main>

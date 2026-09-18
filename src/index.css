@@ -15,6 +15,65 @@
   }
 }
 
+/* Nuxt tfdevs.com Gallery Marquee Drift Animation */
+@keyframes gallery-drift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.gallery-drift {
+  animation: gallery-drift 240s linear infinite;
+  will-change: transform;
+}
+
+.gallery-drift-reverse {
+  animation: gallery-drift 260s linear infinite reverse;
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .gallery-drift {
+    animation-duration: 320s;
+  }
+  .gallery-drift-reverse {
+    animation-duration: 340s;
+  }
+}
+
+/* Gradient Fade Mask for Hero Drift Background */
+.hero-vignette-mask {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0,0,0,0.15) 6%,
+    rgba(0,0,0,0.5) 12%,
+    rgba(0,0,0,0.85) 20%,
+    black 30%,
+    black 70%,
+    rgba(0,0,0,0.85) 80%,
+    rgba(0,0,0,0.5) 88%,
+    rgba(0,0,0,0.15) 94%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0,0,0,0.15) 6%,
+    rgba(0,0,0,0.5) 12%,
+    rgba(0,0,0,0.85) 20%,
+    black 30%,
+    black 70%,
+    rgba(0,0,0,0.85) 80%,
+    rgba(0,0,0,0.5) 88%,
+    rgba(0,0,0,0.15) 94%,
+    transparent 100%
+  );
+}
+
 /* Lenis Recommended Smooth Scroll CSS */
 html.lenis, html.lenis body {
   height: auto;
