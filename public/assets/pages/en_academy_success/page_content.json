@@ -1,0 +1,45 @@
+{
+  "route": "/en/academy/success",
+  "title": "Academy - Code to Career : FullStack Bootcamp - Teaching For Development",
+  "hero_h1": "Code to Career    FullStack Bootcamp",
+  "headings": [
+    "Only 20 Slots Per Class",
+    "Choose Your Perfect Schedule",
+    "How Many Students So Far?",
+    "Investment in Your Future",
+    "Bootcamp Timeline",
+    "Skills You&#39;ll Acquire",
+    "Why Study With Us?",
+    "Course Curriculum",
+    "What Can You Do After Graduation?",
+    "Meet Your Instructors",
+    "Our Location",
+    "Transform Your Career in 15 Weeks"
+  ],
+  "paragraphs": [
+    "Transform Your Career in 15 Weeks",
+    "Join our intensive in-person bootcamp and become a full-stack developer ready for the modern tech industry.",
+    "Personalized Attention, Maximum Learning",
+    "We intentionally limit each class to 20 students to ensure every learner receives personalized guidance, immediate feedback, and the attention they deserve. Small classes mean better learning outcomes.",
+    "Direct access to instructors for personalized guidance",
+    "More time on real projects, less time waiting",
+    "Build meaningful connections with peers",
+    "Limited Enrollment Ensures Excellence",
+    "We offer flexible class schedules to fit your lifestyle. Whether you&#39;re a working professional or a full-time student, find the perfect time to transform your career.",
+    "Mon / Wed / Fri",
+    "Perfect for full-time learners looking for intensive daily engagement",
+    "Saturday &amp; Sunday",
+    "Ideal for working professionals who need flexibility",
+    "students have successfully completed our bootcamp and started their tech careers",
+    "No hidden fees or recurring charges"
+  ],
+  "images": [
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/images/academy/in-class-2.png",
+    "/images/academy/instructor.png",
+    "/images/academy/map-google.png",
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/images/icons/telegram-svgrepo-com.svg",
+    "/images/icons/github.png"
+  ]
+}

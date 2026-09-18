@@ -1,0 +1,41 @@
+{
+  "route": "/en/services",
+  "title": "Software Consulting Services - Teaching For Development",
+  "hero_h1": "Software Consulting Services",
+  "headings": [
+    "Transform Your Business with Expert Technology Solutions",
+    "Featured Projects",
+    "Consulting Rates",
+    "Get in Touch",
+    "join our social networks!"
+  ],
+  "paragraphs": [
+    "Professional software consulting and development services to transform your business with cutting-edge technology solutions",
+    "At Technology For Development, we offer comprehensive software consulting services to help businesses navigate the complex world of technology. Our team of experienced developers and consultants brings years of expertise in building scalable, efficient, and innovative solutions.",
+    "With a proven track record of successful projects across various industries, we specialize in:",
+    "Experienced Team   - Our consultants have 5+ years of experience working with startups and enterprises",
+    "Quality Driven   - We follow best practices and industry standards to deliver high-quality solutions",
+    "Agile Methodology   - Flexible and iterative approach ensuring quick delivery and adaptability",
+    "Transparent Communication   - Regular updates and clear communication throughout the project lifecycle",
+    "Long-term Partnership   - We don&#39;t just build software; we build lasting relationships",
+    "Custom LMS with AI-powered personalized learning paths",
+    "Real-time YOLO-based object detection for manufacturing QA",
+    "Patient management system with appointment scheduling",
+    "Multi-vendor marketplace with payment integration",
+    "Transparent pricing for professional consulting services",
+    "Ideal for short-term consultations and code reviews",
+    "Fixed price for well-defined projects with clear scope"
+  ],
+  "images": [
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/socials/facebook.png",
+    "/socials/linkedin.png",
+    "/socials/Instagram_icon.webp",
+    "/socials/telegram.png",
+    "/socials/youtube.webp",
+    "/socials/github.png",
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/images/icons/telegram-svgrepo-com.svg",
+    "/images/icons/github.png"
+  ]
+}

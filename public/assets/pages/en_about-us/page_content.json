@@ -1,0 +1,28 @@
+{
+  "route": "/en/about-us",
+  "title": "About Us - Teaching For Development",
+  "hero_h1": "About Us",
+  "headings": [
+    "Why do I write this blog?",
+    "join our social networks!"
+  ],
+  "paragraphs": [
+    "Learn about our mission to bring technology education to everyone in Cambodia",
+    "I love expressing my opinion by writing. Writing improves my vocabulary. It can also make my life less boring during my stay in Japan (Since 2021).",
+    "I started TFD in 2014 when I was in grade 11. I didn&#39;t know much about computers at that time, let alone how to edit\nand produce a proper video.",
+    "The only knowledge I can share at that time (2014) was   English  . It wasn&#39;t perfect. Why did I have such a stomach to\nleave my comfort zone? I think it has something to do with   motivation  . I always have curiosity about how things work\naround me. I started a small blog with Google blogger when I was in grade 10. It wasn&#39;t a success, but it was fun. I\nlearned about   html   and how to style my element. By keep doing this over and over, I gained knowledge and perfection\nalong the way. I wasn&#39;t even aware of that. I hope this blog can inspire the younger generation to seek positive\ndevelopment in life.",
+    "[email&#160;protected]       more      About     contact     terms and conditions     Privacy     social                                 \u00a9 2026 TFD. All rights reserved."
+  ],
+  "images": [
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/socials/facebook.png",
+    "/socials/linkedin.png",
+    "/socials/Instagram_icon.webp",
+    "/socials/telegram.png",
+    "/socials/youtube.webp",
+    "/socials/github.png",
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/images/icons/telegram-svgrepo-com.svg",
+    "/images/icons/github.png"
+  ]
+}

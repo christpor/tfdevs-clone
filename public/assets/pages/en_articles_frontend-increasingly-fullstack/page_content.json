@@ -1,0 +1,22 @@
+{
+  "route": "/en/articles/frontend-increasingly-fullstack",
+  "title": "Modern Frontend Development: The Shift Toward Full-Stack Engineering - Teaching For Development",
+  "hero_h1": "Modern Frontend Development: The Shift Toward Full-Stack Engineering",
+  "headings": [],
+  "paragraphs": [
+    "Back to Articles   Modern Frontend Development: The Shift Toward Full-Stack Engineering        \u1785\u17c5 \u178a\u17b6\u179a\u17c9\u17b6       May 16, 2026       10 minutes     Frontend  Server-Side Rendering  FullStack     Explore why modern frontend development now requires knowledge beyond HTML/CSS, including SSR, APIs, and full infrastructure, to survive in the era of Next.js and Nuxt.",
+    "Copy Link              Modern frontend development is increasingly becoming full-stack engineering, especially with the rise of SSR frameworks like Next.js, Nuxt, and SvelteKit. In the past, frontend development was mostly about HTML, CSS, and JavaScript running entirely in the browser \u2014 developers focused mainly on layouts, styling, animations, and user interactions.",
+    "Today, frontend developers often deal with server-side rendering, API routes, caching strategies, authentication, SEO optimization, edge functions, database access, and understanding the trade-offs between client-side and server-side rendering. It increasingly feels like frontend and backend are merging together.",
+    "A good analogy is that frontend developers used to mainly decorate and arrange the storefront of a restaurant, but now they are also expected to understand the kitchen workflow, inventory system, delivery process, and payment infrastructure behind it.",
+    "In real projects, this becomes obvious very quickly: for example, a page may work perfectly in local development, but once deployed globally, developers suddenly need to debug SSR hydration mismatches, CDN cache invalidation, authentication cookies between server and browser, or why API calls behave differently on the server versus the client.",
+    "Modern frontend work is no longer only about \u201cmaking UI\u201d; it is about understanding how the entire web application flows from browser to server to infrastructure. Young developers should therefore prepare beyond just learning frameworks and components \u2014 they should build knowledge in networking, HTTP caching, authentication, databases, deployment, observability, and performance optimization, because modern frontend engineering increasingly rewards developers who understand the whole system rather than only the visual layer.",
+    "View All Articles                    [email&#160;protected]       more      About     contact     terms and conditions     Privacy     social                                 \u00a9 2026 TFD. All rights reserved."
+  ],
+  "images": [
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/images/articles/ssr2/ssr2.jpg",
+    "/_nuxt/tfd_logo.Qnfrg85Z.jpeg",
+    "/images/icons/telegram-svgrepo-com.svg",
+    "/images/icons/github.png"
+  ]
+}
